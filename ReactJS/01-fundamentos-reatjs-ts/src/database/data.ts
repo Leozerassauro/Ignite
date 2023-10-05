@@ -15,18 +15,18 @@ export const POSTS: PostType[] = [
     ],
     publishedAt: new Date('2023-10-05 13:30:00'),
   },
-  {
-    id: 2,
-    author: {
-      avatarUrl: 'https://github.com/1TATO.png',
-      name: 'José Neto',
-      role: 'Web 2 and Web 3 React front-end developer'
-    },
-    content: [
-      { type: 'paragraph', content: 'Eai pessoal' },
-      { type: 'paragraph', content: 'Finalizei o desafio Move.it da Rocketseat!! 🚀🚀🚀' },
-      { type: 'link', content: 'move.it', href: 'https://github.com/1TATO/move.it' },
-    ],
-    publishedAt: new Date('2023-10-03 20:00:00'),
-  },
+  // {
+  //   id: 2,
+  //   author: {
+  //     avatarUrl: 'https://github.com/1TATO.png',
+  //     name: 'José Neto',
+  //     role: 'Web 2 and Web 3 React front-end developer'
+  //   },
+  //   content: [
+  //     { type: 'paragraph', content: 'Eai pessoal' },
+  //     { type: 'paragraph', content: 'Finalizei o desafio Move.it da Rocketseat!! 🚀🚀🚀' },
+  //     { type: 'link', content: 'move.it', href: 'https://github.com/1TATO/move.it' },
+  //   ],
+  //   publishedAt: new Date('2023-10-03 20:00:00'),
+  // },
 ];

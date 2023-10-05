@@ -94,7 +94,7 @@ export function Post({ post }: PostProps) {
         <strong>Deixe seu comentário</strong>
 
         <textarea
-          placeholder='Deixa um comentário'
+          placeholder='Deixe um comentário'
           value={newComment}
           onChange={handleNewCommentChange}
           onInvalid={handleNewCommentInvalid}
