@@ -1,5 +1,5 @@
 <div align="center">
-   <img src='https://github.com/Leozerassauro/Ignite/blob/main/ReactJS/01-fundamentos-reatjs-ts/src/assets/ignite-logo.svg'>   
+   <img src='https://github.com/Leozerassauro/Ignite/blob/main/ReactJS/01-ignite-feed/src/assets/ignite-logo.svg'>   
    <h1>Ignite Feed</h1>
    <br/>
    <div>
@@ -10,7 +10,7 @@
    </div>
    <br/>
    <div>
-      <img alt="" title="" src="https://github.com/Leozerassauro/Ignite/blob/main/ReactJS/01-fundamentos-reatjs-ts/Images/Cover.png" width="1400px" />
+      <img alt="" title="" src="https://github.com/Leozerassauro/Ignite/blob/main/ReactJS/01-ignite-feed/images/Cover.png" width="1400px" />
    </div>
 </div>
 
