@@ -1,27 +1,34 @@
-# React + TypeScript + Vite
+<div align="center">
+   <img src='https://github.com/Leozerassauro/Ignite/blob/main/ReactJS/01-fundamentos-reatjs-ts/src/assets/ignite-logo.svg'>   
+   <h1>Ignite Feed</h1>
+   <br/>
+   <div>
+      <a href="https://www.linkedin.com/in/leonardo-girardi-494958171/">
+      <img alt="Made by Leonardo Girardi" src="https://img.shields.io/badge/made%20by-LeonardoGirardi-%2304D361">
+      </a>
+      <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   </div>
+   <br/>
+   <div>
+      <img alt="" title="" src="https://github.com/Leozerassauro/Ignite/blob/main/ReactJS/01-fundamentos-reatjs-ts/Images/Cover.png" width="1400px" />
+   </div>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## :computer: Project
+First Ignite Course application.
 
-Currently, two official plugins are available:
+## :rocket: Technologies
+- [Typescript](https://www.typescriptlang.org)
+- [ReactJS](https://reactjs.org/)
+- [Vite](https://vitejs.dev)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Front-end
+- [CSS Modules](https://github.com/css-modules/css-modules)
+- [Date-fns](https://date-fns.org/docs/Getting-Started)
+- [Phosphor React](https://phosphoricons.com)
 
-## Expanding the ESLint configuration
+## :label: Layout
+- [Web](https://www.figma.com/community/file/1113573231685349036) layout
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## :memo: License
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
