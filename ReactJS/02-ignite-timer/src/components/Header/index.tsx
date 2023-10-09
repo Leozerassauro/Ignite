@@ -10,7 +10,12 @@ export function Header() {
   const { toggleTheme, theme } = useContext(ThemeContext)
   return (
     <HeaderContainer>
-      <img src={logo} alt="" />
+      <div>
+        <img src={logo} alt="" />
+        <button onClick={toggleTheme}>
+          {theme === 'dark' ? <Sun size={24} /> : <Moon size={24} />}
+        </button>
+      </div>
       <nav>
         <NavLink to="/" title="Timer">
           <Timer size={24} />
@@ -18,9 +23,6 @@ export function Header() {
         <NavLink to="/history" title="Histórico">
           <Scroll size={24} />
         </NavLink>
-        <button onClick={toggleTheme}>
-          {theme === 'dark' ? <Sun size={24} /> : <Moon size={24} />}
-        </button>
       </nav>
     </HeaderContainer>
   )
