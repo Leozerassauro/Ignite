@@ -30,5 +30,20 @@ export const HeaderContainer = styled.header`
         color: ${(props) => props.theme['green-500']};
       }
     }
+
+    button {
+      width: 3rem;
+      height: 3rem;
+      border: none;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background: transparent;
+      color: ${(props) => props.theme['gray-100']};
+
+      cursor: pointer;
+    }
   }
 `

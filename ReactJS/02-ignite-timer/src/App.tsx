@@ -1,16 +1,18 @@
-import { ThemeProvider } from 'styled-components'
 import { Router } from './Router'
 import { BrowserRouter } from 'react-router-dom'
 import { GlobalStyle } from './styles/global'
-import { darkTheme } from './styles/themes/dark'
+import { CyclesContextProvider } from './context/CyclesContext'
+import { ThemeContextProvider } from './context/ThemeContext'
 
 export function App() {
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeContextProvider>
       <BrowserRouter>
-        <Router />
+        <CyclesContextProvider>
+          <Router />
+        </CyclesContextProvider>
       </BrowserRouter>
       <GlobalStyle />
-    </ThemeProvider>
+    </ThemeContextProvider>
   )
 }
